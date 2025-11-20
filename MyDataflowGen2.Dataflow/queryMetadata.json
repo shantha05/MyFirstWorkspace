@@ -1,0 +1,27 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "MyDataflowGen2",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "publicholidays": {
+      "queryId": "cef27e7e-0b8e-4d70-97c1-00e73f4b581a",
+      "queryName": "publicholidays",
+      "loadEnabled": false
+    },
+    "publicholidays_DataDestination": {
+      "queryId": "d1250a0d-ed81-4257-9968-58befed4d9dd",
+      "queryName": "publicholidays_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"1ca91926-2b5d-4c58-b21c-d764afca982a\",\"DatasourceId\":\"f109a868-b48a-4226-9f52-a789db5260fe\"}"
+    }
+  ]
+}
